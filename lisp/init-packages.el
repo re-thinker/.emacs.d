@@ -1,4 +1,5 @@
 
+
 (when (>= emacs-major-version 24)
      (require 'package)
      (setq package-archives '(("gnu"   . "http://elpa.emacs-china.org/gnu/")
@@ -27,25 +28,13 @@
        (when (not (package-installed-p pkg))
          (package-install pkg))))
 
-(global-company-mode 1)
+
 (require 'recentf)
-(recentf-mode 1)
-(setq recentf-max-menu-item 10)
-(global-set-key (kbd "C-x C-r") 'recentf-open-files)
-
 (require 'hungry-delete)
-(global-hungry-delete-mode)
-
 (require 'smex)
 (smex-initialize)
-(global-set-key (kbd "M-x") 'smex)
-
-(ivy-mode 1)
-(setq ivy-use-virtual-buffers t)
-(setq enable-recursive-minibuffers t)
-
-(global-auto-revert-mode t)
-(setq make-backup-files nil)
-(setq auto-save-default nil)
+(require 'smartparens-config)
+(add-hook 'emacs-lisp-mode-hook 'smartparens-mode)
+(require 'popwin)
 
 (provide 'init-packages)
