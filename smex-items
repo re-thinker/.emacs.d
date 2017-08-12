@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ customize-group
+ iedit-mode
  eval-buffer
  info
  load-theme
  package-list-packages
  cd
- 5x5
- arp
 )
 
 ;; ----- smex-data -----
@@ -15,5 +15,7 @@
  (package-list-packages . 1)
  (load-theme . 1)
  (info . 1)
- (eval-buffer . 1)
+ (eval-buffer . 5)
+ (iedit-mode . 3)
+ (customize-group . 4)
 )

@@ -14,6 +14,8 @@
 		      counsel
 		      smartparens
 		      popwin
+		      expand-region
+		      iedit
 		      )"Default packages")
 (setq package-selected-packages my/packages)
 
@@ -36,5 +38,9 @@
 (require 'smartparens-config)
 (add-hook 'emacs-lisp-mode-hook 'smartparens-mode)
 (require 'popwin)
+
+(require 'dired-x)
+
+(require 'iedit)
 
 (provide 'init-packages)
