@@ -18,4 +18,7 @@
 (global-set-key (kbd "M-x") 'smex)
 
 (global-set-key (kbd "C-c p") 'counsel-git)
+
+(global-set-key (kbd "C-M-\\") 'indent-region-or-buffer)
+
 (provide 'init-keybindings)

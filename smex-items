@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ eval-buffer
  info
  load-theme
  package-list-packages
  cd
  5x5
  arp
- dbx
 )
 
 ;; ----- smex-data -----
@@ -15,4 +15,5 @@
  (package-list-packages . 1)
  (load-theme . 1)
  (info . 1)
+ (eval-buffer . 1)
 )
