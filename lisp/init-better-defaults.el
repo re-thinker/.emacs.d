@@ -59,4 +59,8 @@
 
 (setq dired-dwin-target 1)
 
+(add-hook 'prog-mode-hook #'yas-minor-mode)
+
+(evil-mode 1)
+
 (provide 'init-better-defaults)

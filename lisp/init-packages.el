@@ -16,6 +16,9 @@
 		      popwin
 		      expand-region
 		      iedit
+		      yasnippet
+		      auto-yasnippet
+		      evil
 		      )"Default packages")
 (setq package-selected-packages my/packages)
 
@@ -42,5 +45,12 @@
 (require 'dired-x)
 
 (require 'iedit)
+
+(require 'yasnippet)
+(yas-reload-all)
+
+(require 'auto-yasnippet)
+
+(require 'evil)
 
 (provide 'init-packages)

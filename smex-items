@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ counsel-ag
+ grep
  customize-group
  iedit-mode
  eval-buffer
  info
  load-theme
- package-list-packages
- cd
 )
 
 ;; ----- smex-data -----
@@ -18,4 +18,6 @@
  (eval-buffer . 5)
  (iedit-mode . 3)
  (customize-group . 4)
+ (grep . 1)
+ (counsel-ag . 1)
 )
