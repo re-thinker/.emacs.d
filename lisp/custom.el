@@ -9,7 +9,7 @@
  '(compilation-message-face (quote default))
  '(custom-safe-themes
    (quote
-    ("3629b62a41f2e5f84006ff14a2247e679745896b5eaa1d5bcfbc904a3441b0cd" default)))
+    ("fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" "8db4b03b9ae654d4a57804286eb3e332725c84d7cdab38463cb6b97d5762ad26" "3629b62a41f2e5f84006ff14a2247e679745896b5eaa1d5bcfbc904a3441b0cd" default)))
  '(evil-leader/leader "SPC")
  '(evil-want-C-u-scroll t)
  '(fci-rule-color "#3C3D37")
@@ -27,7 +27,7 @@
  '(magit-diff-use-overlays nil)
  '(package-selected-packages
    (quote
-    (evil-nerd-commenter company monokai-theme hungry-delete smex swiper counsel smartparens popwin expand-region iedit yasnippet auto-yasnippet evil evil-leader window-numbering powerline)))
+    (spacemacs-theme color-theme-solarized company monokai-theme hungry-delete smex swiper counsel smartparens popwin expand-region iedit yasnippet auto-yasnippet evil evil-leader window-numbering powerline evil-surround evil-nerd-commenter)))
  '(pos-tip-background-color "#FFFACE")
  '(pos-tip-foreground-color "#272822")
  '(vc-annotate-background nil)

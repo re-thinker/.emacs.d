@@ -7,7 +7,7 @@
 (setq initial-frame-alist (quote ((fullscreen . maximized))))
 (global-highlight-changes-mode 1)
 (global-hl-line-mode 1)
-(load-theme 'monokai 1)
+(load-theme 'spacemacs-dark 1)
 
 (setq-default cursor-type 'bar)
 
