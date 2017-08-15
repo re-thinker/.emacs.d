@@ -27,7 +27,7 @@
  '(magit-diff-use-overlays nil)
  '(package-selected-packages
    (quote
-    (powerline window-numbering smartparens company monokai-theme hungry-delete smex swiper counsel)))
+    (evil-nerd-commenter company monokai-theme hungry-delete smex swiper counsel smartparens popwin expand-region iedit yasnippet auto-yasnippet evil evil-leader window-numbering powerline)))
  '(pos-tip-background-color "#FFFACE")
  '(pos-tip-foreground-color "#272822")
  '(vc-annotate-background nil)

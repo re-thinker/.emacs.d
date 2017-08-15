@@ -2,20 +2,20 @@
 ;; ----- smex-history -----
 (
  package-list-packages
+ eval-buffer
  customize-group
  customize-option
  backward-kill-word
- eval-buffer
  counsel-ag
  iedit-mode
 )
 
 ;; ----- smex-data -----
 (
- (package-list-packages . 3)
+ (package-list-packages . 4)
  (load-theme . 1)
  (info . 1)
- (eval-buffer . 6)
+ (eval-buffer . 8)
  (iedit-mode . 3)
  (customize-group . 6)
  (grep . 1)

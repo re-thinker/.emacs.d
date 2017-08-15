@@ -22,6 +22,8 @@
 		      evil-leader
 		      window-numbering
 		      powerline
+		      evil-surround
+		      evil-nerd-commenter 
 		      )"Default packages")
 (setq package-selected-packages my/packages)
 (defun my/packages-installed-p ()
@@ -62,7 +64,24 @@
 
 (global-evil-leader-mode)
 (evil-leader/set-key
-  "e" 'find-file
-  "b" 'switch-to-buffer
-  "k" 'kill-buffer)
+  "ff" 'find-file
+  "fr" 'recentf-open-files
+  "bb" 'switch-to-buffer
+  "bk" 'kill-buffer
+  "0" 'select-window-0
+  "1" 'select-window-1
+  "2" 'select-window-2
+  "3" 'select-window-3
+  "w/" 'split-window-right
+  "w-" 'split-window-below
+  "wm" 'delete-other-windows
+  ":" 'counsel-M-x)
+
+(require 'evil-surround)
+(global-evil-surround-mode 1)
+
+(define-key evil-normal-state-map (kbd ",/") 'evilnc-comment-or-uncomment-lines)
+(define-key evil-visual-state-map (kbd ",/") 'evilnc-comment-or-uncomment-lines)
+;;(evilnc-default-hotkeys)
+
 (provide 'init-packages)
