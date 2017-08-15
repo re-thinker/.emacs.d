@@ -19,9 +19,11 @@
 		      yasnippet
 		      auto-yasnippet
 		      evil
+		      evil-leader
+		      window-numbering
+		      powerline
 		      )"Default packages")
 (setq package-selected-packages my/packages)
-
 (defun my/packages-installed-p ()
      (loop for pkg in my/packages
            when (not (package-installed-p pkg)) do (return nil)
@@ -53,4 +55,14 @@
 
 (require 'evil)
 
+(window-numbering-mode 1)
+
+(require 'powerline)
+;;(power)
+
+(global-evil-leader-mode)
+(evil-leader/set-key
+  "e" 'find-file
+  "b" 'switch-to-buffer
+  "k" 'kill-buffer)
 (provide 'init-packages)

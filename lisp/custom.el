@@ -10,6 +10,8 @@
  '(custom-safe-themes
    (quote
     ("3629b62a41f2e5f84006ff14a2247e679745896b5eaa1d5bcfbc904a3441b0cd" default)))
+ '(evil-leader/leader "SPC")
+ '(evil-want-C-u-scroll t)
  '(fci-rule-color "#3C3D37")
  '(highlight-changes-colors (quote ("#FD5FF0" "#AE81FF")))
  '(highlight-tail-colors
@@ -25,7 +27,7 @@
  '(magit-diff-use-overlays nil)
  '(package-selected-packages
    (quote
-    (smartparens company monokai-theme hungry-delete smex swiper counsel)))
+    (powerline window-numbering smartparens company monokai-theme hungry-delete smex swiper counsel)))
  '(pos-tip-background-color "#FFFACE")
  '(pos-tip-foreground-color "#272822")
  '(vc-annotate-background nil)

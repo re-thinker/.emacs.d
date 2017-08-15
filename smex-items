@@ -1,23 +1,26 @@
 
 ;; ----- smex-history -----
 (
- counsel-ag
- grep
+ package-list-packages
  customize-group
- iedit-mode
+ customize-option
+ backward-kill-word
  eval-buffer
- info
- load-theme
+ counsel-ag
+ iedit-mode
 )
 
 ;; ----- smex-data -----
 (
- (package-list-packages . 1)
+ (package-list-packages . 3)
  (load-theme . 1)
  (info . 1)
- (eval-buffer . 5)
+ (eval-buffer . 6)
  (iedit-mode . 3)
- (customize-group . 4)
+ (customize-group . 6)
  (grep . 1)
  (counsel-ag . 1)
+ (backward-kill-word . 1)
+ (customize-option . 1)
+ (evil-mode . 2)
 )
