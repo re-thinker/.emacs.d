@@ -1,21 +1,21 @@
 
 ;; ----- smex-history -----
 (
- load-theme
- package-list-packages
  eval-buffer
+ package-list-packages
+ counsel-find-file
+ load-theme
  customize-group
  customize-option
  backward-kill-word
- counsel-ag
 )
 
 ;; ----- smex-data -----
 (
- (package-list-packages . 6)
+ (package-list-packages . 8)
  (load-theme . 5)
  (info . 1)
- (eval-buffer . 9)
+ (eval-buffer . 14)
  (iedit-mode . 3)
  (customize-group . 6)
  (grep . 1)
@@ -23,4 +23,5 @@
  (backward-kill-word . 1)
  (customize-option . 1)
  (evil-mode . 2)
+ (counsel-find-file . 1)
 )

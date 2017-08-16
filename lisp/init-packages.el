@@ -1,5 +1,4 @@
 
-
 (when (>= emacs-major-version 24)
      (require 'package)
      (setq package-archives '(("gnu"   . "http://elpa.emacs-china.org/gnu/")
@@ -23,7 +22,9 @@
 		      window-numbering
 		      powerline
 		      evil-surround
-		      evil-nerd-commenter 
+		      evil-nerd-commenter
+		      go-mode
+		      company-go
 		      )"Default packages")
 (setq package-selected-packages my/packages)
 (defun my/packages-installed-p ()
